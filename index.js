@@ -9,7 +9,7 @@ const app = express();
 // Body parser
 app.use(express.json());
 // Cors
-app.use(cors({ origin: 'https://wonderful-jackson-8900a4.netlify.app/' }));
+app.use(cors({ origin: 'https://wonderful-jackson-8900a4.netlify.app' }));
 
 // Routes
 app.get('/', (req, res) => {
