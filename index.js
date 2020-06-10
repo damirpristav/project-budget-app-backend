@@ -14,7 +14,7 @@ app.use(cors());
 // Routes
 app.get('/', (req, res) => {
   res.json({
-    message: 'nothing here'
+    message: 'nothing here...'
   });
 });
 
